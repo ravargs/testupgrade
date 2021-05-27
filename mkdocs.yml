@@ -1,0 +1,8 @@
+site_name: "testupgrade"
+site_description: "testupgrade"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

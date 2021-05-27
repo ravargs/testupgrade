@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testupgrade"
+  description: "testupgrade"
+  annotations:
+    github.com/project-slug: ravargs/testupgrade
+    backstage.io/techdocs-ref: url:https://github.com/ravargs/testupgrade
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "ravargs"
